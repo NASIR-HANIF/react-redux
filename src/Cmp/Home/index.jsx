@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { addImage, removeImage, resetImage } from "../../redux/slices/images.slice";
 import { useSelector } from 'react-redux';
 
+// home pagel
 const Home = () => {
     const dispatch = useDispatch();
     const images = useSelector((state) => state.imagesSlice);
